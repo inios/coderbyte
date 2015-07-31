@@ -1,7 +1,7 @@
 def SecondGreatLow(arr)
 
   # code goes here
-  arr = [arr.uniq.sort[1], arr.uniq.sort[2]].join(" ")
+  arr = [arr.uniq.sort[1], arr.uniq.sort[-2]].join(" ")
   return arr 
          
 end
